@@ -10,6 +10,8 @@
 
 3. `docker-compose up -d` 然后 `docker-compose down` 使程序文件结构初始化
 
+    > 要注意的是这里密码选用md5，防止密码出现特殊字符无法登录
+
 4. 修改 `docker-compose.yml` 文件中 `environment` 的各个参数
 
 5. `docker-compose up -d` 运行程序

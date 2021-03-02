@@ -1,2 +1,4 @@
-src/
-tmp/
+src
+tmp
+docker-compose-dev.yml
+docker-entrypoint.dev.sh

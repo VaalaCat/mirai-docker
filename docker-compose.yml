@@ -11,7 +11,8 @@ services:
       - "./tmp:/tmp"
     environment: 
       - QQ=123123123
-      - PASSWORD=123123123
+      - PASSWORD=f5bb0c8de146c67b44babbf4e6584cc0
+      - KIND=MD5
       - MODE=ANDROID_WATCH
       - AUTHKEY=123123123
       - EXPPORT=9000
