@@ -1,22 +1,22 @@
 version: "3.1"
 
-services: 
+services:
   mirai:
+    restart: unless-stopped
     working_dir: /usr/src/mirai
     image: openjdk:11
     ports:
       - 9000:9000
-    volumes: 
+    volumes:
       - "./src:/usr/src/mirai"
       - "./tmp:/tmp"
-    environment: 
+    environment:
       - QQ=123123123
       - PASSWORD=f5bb0c8de146c67b44babbf4e6584cc0
       - KIND=MD5
       - MODE=ANDROID_WATCH
       - AUTHKEY=123123123
       - EXPPORT=9000
-      - WS=true
     stdin_open: true
     tty: true
     entrypoint: /usr/src/mirai/docker-entrypoint.sh
