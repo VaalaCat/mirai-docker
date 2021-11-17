@@ -1,0 +1,38 @@
+Attaching to miraidocker_mirai_1
+[36mmirai_1  |[0m fuckkkkkk
+[36mmirai_1  |[0m -e ]2;Mirai Console
+[36mmirai_1  |[0m [92m2021-08-22 12:36:36 I/main: Starting mirai-console...[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:36 I/main: Backend: version 2.3.2, built on 2021-02-03 12:36:42.[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:36 I/main: Frontend Terminal: version 2.3.2, provided by Mamoe Technologies[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/plugin: Successfully loaded plugin net.mamoe.mirai-api-http[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/main: Prepared built-in commands: autoLogin, help, login, permission, status, stop[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/net.mamoe.mirai-api-http: Starting Mirai HTTP Server in 0.0.0.0:9050[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/Mirai HTTP API: Http api server is running with authKey: democat233[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/net.mamoe.mirai-api-http: ������������������������: false[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/net.mamoe.mirai-api-http: ������������������������: false[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/main: 1 plugin(s) enabled.[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:37 I/main: Auto-login 1915174338[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:38 I/Bot.1915174338: Logging in...[0m[m
+[36mmirai_1  |[0m [31m2021-08-22 12:36:39 E/main: net.mamoe.mirai.network.WrongPasswordException: Error(title=������������, message=���������������������������������������������������������QQ���������������������������������������������������������������, errorInfo=)
+[36mmirai_1  |[0m net.mamoe.mirai.network.WrongPasswordException: Error(title=������������, message=���������������������������������������������������������QQ���������������������������������������������������������������, errorInfo=)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler.closeEverythingAndRelogin(QQAndroidBotNetworkHandler.kt:245)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.internal.network.QQAndroidBotNetworkHandler$closeEverythingAndRelogin$1.invokeSuspend(QQAndroidBotNetworkHandler.kt)
+[36mmirai_1  |[0m 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:33)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:113)
+[36mmirai_1  |[0m 	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:274)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:86)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:61)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$default(Builders.kt)
+[36mmirai_1  |[0m 	at kotlinx.coroutines.BuildersKt.runBlocking$default(Unknown Source)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.console.internal.MiraiConsoleImplementationBridge.doStart$mirai_console(MiraiConsoleImplementationBridge.kt:212)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.console.MiraiConsoleImplementation$Companion.start(MiraiConsoleImplementation.kt:209)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon(MiraiConsoleTerminalLoader.kt:153)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.startAsDaemon$default(MiraiConsoleTerminalLoader.kt:152)
+[36mmirai_1  |[0m 	at net.mamoe.mirai.console.terminal.MiraiConsoleTerminalLoader.main(MiraiConsoleTerminalLoader.kt:48)
+[36mmirai_1  |[0m [0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:39 I/main: mirai-console started successfully.[0m[m
+[36mmirai_1  |[0m [92m2021-08-22 12:36:39 I/Bot.1915174338: Bot cancelled: Job was cancelled[0m[m

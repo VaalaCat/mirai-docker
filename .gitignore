@@ -2,3 +2,5 @@ src
 tmp
 docker-compose-dev.yml
 docker-entrypoint.dev.sh
+deviceInfo.json
+device.json
