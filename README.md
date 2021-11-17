@@ -1,6 +1,6 @@
 # Mirai-docker
 
-> 本项目使用 openjdk11 docker 镜像封装了 `mirai-2.3.2` 和 `mirai-api-http-1.9.8` 方便使用
+> 本项目使用 openjdk11 docker 镜像封装了 `mirai-2.8.1` 和 `mirai-api-http-2.3.3` 方便使用
 
 ## 首次使用说明
 
