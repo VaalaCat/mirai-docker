@@ -15,7 +15,7 @@ services:
       - PASSWORD=f5bb0c8de146c67b44babbf4e6584cc0
       - KIND=MD5
       - MODE=ANDROID_WATCH
-      - AUTHKEY=123123123
+      - VERIFYKEY=123123123
       - EXPPORT=9000
     stdin_open: true
     tty: true
