@@ -14,4 +14,5 @@ curl -fSL https://ghproxy.com/https://github.com/project-mirai/mirai-api-http/re
 echo "download files finished\n"
 echo "remove old config file and copy new Mirai Api Http config file\n"
 mkdir -p ./src/config/net.mamoe.mirai-api-http
-cp setting.yml ./src/config/net.mamoe.mirai-api-http/
+sudo rm -rf ./src/config/net.mamoe.mirai-api-http/setting.yml
+sudo cp setting.yml ./src/config/net.mamoe.mirai-api-http/

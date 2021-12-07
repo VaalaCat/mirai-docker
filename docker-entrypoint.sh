@@ -8,7 +8,7 @@ if [ -f "/usr/src/mirai/config/Console/AutoLogin.yml" ]; then
 fi
 
 if [ -f "/usr/src/mirai/config/net.mamoe.mirai-api-http/setting.yml" ]; then
-  sed -i 's/^port: .*/port: '"$EXPPORT"'/g' /usr/src/mirai/config/net.mamoe.mirai-api-http/setting.yml;
+  sed -i 's/port: .*/port: '"$EXPPORT"'/g' /usr/src/mirai/config/net.mamoe.mirai-api-http/setting.yml;
   sed -i 's/verifyKey: .*/verifyKey: '"$VERIFYKEY"'/g' /usr/src/mirai/config/net.mamoe.mirai-api-http/setting.yml;
 fi
 
