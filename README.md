@@ -1,6 +1,6 @@
 # Mirai-docker
 
-> 本项目使用 openjdk11 docker 镜像封装了 `mirai-2.8.1` 和 `mirai-api-http-2.3.3` 方便使用
+> 本项目使用 openjdk11 docker 镜像封装了 `mirai-2.14.0` 和 `mirai-api-http-2.9.1` 方便使用
 
 ## 首次使用说明
 
@@ -16,9 +16,8 @@
 
 5. `docker-compose up -d` 运行程序
 
-6. `docker attach miraidocker_mirai_1` 进入控制台，按提示通过验证
-    >项目文件夹下的 `tmp` 文件夹即为验证码保存的图片文件夹
+6. `docker attach mirai-docker-mirai-1` 进入控制台，按提示通过验证
 
 ## 注意
 
-推荐先在服务器所在 IP 登录 PC 版 QQ 一个星期左右再使用 mirai 登录，并且将登录成功得到的   `device.json` 妥善保存
+推荐先在服务器所在 IP 登录 PC 版 QQ 一个星期左右再使用 mirai 登录，并且将登录成功得到的 `device.json` 妥善保存
